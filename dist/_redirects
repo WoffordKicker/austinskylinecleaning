@@ -1,0 +1,57 @@
+/locations  /service-areas
+/locations/austin-cleaning-services /service-areas/travis-county/austin-cleaning-services
+/locations/barton-hills-cleaning-services /service-areas/travis-county/barton-hills-cleaning-services
+/locations/downtown-austin-cleaning-services /service-areas/travis-county/downtown-austin-cleaning-services
+/locations/north-austin-cleaning-services /service-areas/travis-county/north-austin-cleaning-services
+/locations/south-austin-cleaning-services /service-areas/travis-county/south-austin-cleaning-services
+/locations/east-austin-cleaning-services /service-areas/travis-county/east-austin-cleaning-services
+/locations/west-austin-cleaning-services /service-areas/travis-county/west-austin-cleaning-services
+/locations/wells-branch-cleaning-services /service-areas/travis-county/wells-branch-cleaning-services
+/locations/pflugerville-cleaning-services /service-areas/travis-county/pflugerville-cleaning-services
+/locations/west-lake-hills-cleaning-services /service-areas/travis-county/west-lake-hills-cleaning-services
+/locations/zilker-cleaning-services /service-areas/travis-county/zilker-cleaning-services
+/locations/cedar-park-cleaning-services /service-areas/williamson-county/cedar-park-cleaning-services
+/locations/round-rock-cleaning-services /service-areas/williamson-county/round-rock-cleaning-services
+/locations/leander-cleaning-services /service-areas/williamson-county/leander-cleaning-services
+
+/service-areas/travis-county/buda-tx-cleaning-services /service-areas/travis-county/buda-cleaning-services
+/service-areas/travis-county/allandale-tx-cleaning-services /service-areas/travis-county/allandale-cleaning-services
+/service-areas/travis-county/austin-tx-cleaning-services /service-areas/travis-county/austin-cleaning-services
+/service-areas/travis-county/barton-hills-tx-cleaning-services /service-areas/travis-county/barton-hills-cleaning-services
+/service-areas/travis-county/downtown-austin-tx-cleaning-services /service-areas/travis-county/downtown-austin-cleaning-services
+/service-areas/travis-county/east-austin-tx-cleaning-services /service-areas/travis-county/east-austin-cleaning-services
+/service-areas/travis-county/east-riverside-oltorf-tx-cleaning-services /service-areas/travis-county/east-riverside-oltorf-cleaning-services
+/service-areas/travis-county/north-austin-tx-cleaning-services /service-areas/travis-county/north-austin-cleaning-services
+/service-areas/travis-county/pflugerville-tx-cleaning-services /service-areas/travis-county/pflugerville-cleaning-services
+/service-areas/travis-county/south-austin-tx-cleaning-services /service-areas/travis-county/south-austin-cleaning-services
+/service-areas/travis-county/tarrytown-tx-cleaning-services /service-areas/travis-county/tarrytown-cleaning-services
+/service-areas/travis-county/ut-austin-tx-cleaning-services /service-areas/travis-county/ut-austin-cleaning-services
+/service-areas/travis-county/wells-branch-tx-cleaning-services /service-areas/travis-county/wells-branch-cleaning-services
+/service-areas/travis-county/west-austin-tx-cleaning-services /service-areas/travis-county/west-austin-cleaning-services
+/service-areas/travis-county/west-lake-hills-tx-cleaning-services /service-areas/travis-county/west-lake-hills-cleaning-services
+/service-areas/travis-county/zilker-tx-cleaning-services /service-areas/travis-county/zilker-cleaning-services
+/service-areas/williamson-county/cedar-park-tx-cleaning-services /service-areas/williamson-county/cedar-park-cleaning-services
+/service-areas/williamson-county/jollyville-tx-cleaning-services /service-areas/williamson-county/jollyville-cleaning-services
+/service-areas/williamson-county/round-rock-tx-cleaning-services /service-areas/williamson-county/round-rock-cleaning-services
+/service-areas/williamson-county/leander-tx-cleaning-services /service-areas/williamson-county/leander-cleaning-services
+
+/services/apartment-cleaning-services-austin-tx /services/apartment-cleaning-austin-tx
+/services/house-cleaning-services-austin-tx /services/house-cleaning-austin-tx
+/services/deep-cleaning-services-austin-tx /services/deep-cleaning-austin-tx
+/services/move-in-cleaning-services-austin-tx /services/move-in-cleaning-austin-tx
+/services/move-out-cleaning-services-austin-tx-tx /services/move-out-cleaning-austin-tx
+/services/post-construction-cleaning-services-austin-tx /services/post-construction-cleaning-austin-tx
+/services/move-in-out-cleaning-austin-tx /
+/services/move-in-out-cleaning-services-austin-tx /
+/services/custom-cleaning-services-austin-tx /services/custom-cleaning-austin-tx
+/services/event-cleanup-austin-tx /services/event-cleaning-austin-tx
+/services/event-cleaning-services-austin-tx /services/event-cleaning-austin-tx
+/services/professional-organizing-services-austin-tx /services/professional-organizing-austin-tx
+/services/miracle-cleaning-services-austin-tx /services/miracle-cleaning-austin-tx
+/services/airbnb-cleaning-services-austin-tx /services/airbnb-cleaning-austin-tx
+/services/office-cleaning-services-austin-tx /services/office-cleaning-austin-tx
+
+
+
+
+

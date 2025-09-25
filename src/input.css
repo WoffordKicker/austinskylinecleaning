@@ -1,0 +1,1325 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");*/
+
+/* poppins-100 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/poppins-v21-latin-100.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-100italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 100;
+  src: url("../fonts/poppins-v21-latin-100italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/poppins-v21-latin-200.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-200italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 200;
+  src: url("../fonts/poppins-v21-latin-200italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/poppins-v21-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-300italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 300;
+  src: url("../fonts/poppins-v21-latin-300italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v21-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/poppins-v21-latin-italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/poppins-v21-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-500italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/poppins-v21-latin-500italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v21-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-600italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/poppins-v21-latin-600italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/poppins-v21-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-700italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/poppins-v21-latin-700italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/poppins-v21-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-800italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 800;
+  src: url("../fonts/poppins-v21-latin-800italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/poppins-v21-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-900italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 900;
+  src: url("../fonts/poppins-v21-latin-900italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+h2 {
+  font-weight: 700 !important;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-400%);
+  }
+}
+
+@keyframes beforeAfter {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-350%);
+  }
+}
+
+/* REVIEWS ANIMATION */
+.animate-move {
+  animation: move 90s linear infinite;
+}
+
+/* BEFORE & AFTER */
+.before-after-move {
+  animation: beforeAfter 30s linear infinite;
+}
+
+.locations-dropdown:hover .locations-dropdown-menu {
+  display: block;
+}
+
+.services-dropdown:hover .services-dropdown-menu {
+  display: block;
+}
+
+.service-areas-dropdown:hover .services-areas-dropdown-menu {
+  display: block;
+}
+
+@media (min-width: 1000px) {
+  [data-mobile-menu] {
+    display: none;
+  }
+}
+
+/* Home Hero Blur */
+
+.bg-blur {
+  /*height: calc(100vh - 88px);*/
+  height: calc(100vh);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.bg-blur::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  top: -15px;
+  bottom: 0px;
+  background-image: url("/.netlify/images?url=/images/core/hero-image.avif");
+  background-size: cover;
+  background-position: center;
+  filter: blur(7px);
+}
+
+.bg-blur.scrolled::before {
+  filter: none;
+}
+/* Home Hero Blur*/
+
+/* House Cleaning Hero Blur*/
+
+.bg-blur-house-cleaning {
+  /*height: calc(100vh - 88px);*/
+  height: calc(100vh);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.bg-blur-house-cleaning::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  top: -15px;
+  bottom: 0px;
+  background-image: url("/.netlify/images?url=/images/core/hero-image-house-cleaning.avif");
+  background-size: cover;
+  background-position: center;
+  /* transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;;*/
+  filter: blur(7px); /* Adjust the blur level here */
+}
+
+/* Remove blur effect when the 'scrolled' class is added */
+.bg-blur-house-cleaning.scrolled::before {
+  filter: none;
+}
+/* House Cleaning Hero Blur*/
+
+/* Deep Cleaning Hero Blur*/
+
+.bg-blur-deep-cleaning {
+  /*height: calc(100vh - 88px);*/
+  height: calc(100vh);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.bg-blur-deep-cleaning::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  top: -15px;
+  bottom: 0px;
+  background-image: url("/.netlify/images?url=/images/core/hero-image-deep-cleaning.avif");
+  background-size: cover;
+  background-position: center;
+  /* transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;;*/
+  filter: blur(7px); /* Adjust the blur level here */
+}
+
+/* Remove blur effect when the 'scrolled' class is added */
+.bg-blur-deep-cleaning.scrolled::before {
+  filter: none;
+}
+/* Deep Cleaning Hero Blur*/
+
+/* Move In Cleaning Hero Blur*/
+
+.bg-blur-move-in-cleaning {
+  /*height: calc(100vh - 88px);*/
+  height: calc(100vh);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.bg-blur-move-in-cleaning::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  top: -15px;
+  bottom: 0px;
+  background-image: url("/.netlify/images?url=/images/core/hero-image-move-in-cleaning.avif");
+  background-size: cover;
+  background-position: center;
+  /* transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;;*/
+  filter: blur(7px); /* Adjust the blur level here */
+}
+
+/* Remove blur effect when the 'scrolled' class is added */
+.bg-blur-move-in-cleaning.scrolled::before {
+  filter: none;
+}
+/* Move In Cleaning Hero Blur*/
+
+/* Move Out Cleaning Hero Blur*/
+
+.bg-blur-move-out-cleaning {
+  /*height: calc(100vh - 88px);*/
+  height: calc(100vh);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.bg-blur-move-out-cleaning::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  top: -15px;
+  bottom: 0px;
+  background-image: url("/.netlify/images?url=/images/core/hero-image-move-out-cleaning.avif");
+  background-size: cover;
+  background-position: center;
+  /* transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;;*/
+  filter: blur(7px); /* Adjust the blur level here */
+}
+
+/* Remove blur effect when the 'scrolled' class is added */
+.bg-blur-move-out-cleaning.scrolled::before {
+  filter: none;
+}
+/* Move Out Cleaning Hero Blur*/
+
+/* Post Construction Cleaning Hero Blur*/
+
+.bg-blur-post-construction-cleaning {
+  /*height: calc(100vh - 88px);*/
+  height: calc(100vh);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.bg-blur-post-construction-cleaning::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  top: -15px;
+  bottom: 0px;
+  background-image: url("/.netlify/images?url=/images/core/hero-image-post-construction-cleaning.avif");
+  background-size: cover;
+  background-position: center;
+  /* transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;;*/
+  filter: blur(7px); /* Adjust the blur level here */
+}
+
+/* Remove blur effect when the 'scrolled' class is added */
+.bg-blur-post-construction-cleaning.scrolled::before {
+  filter: none;
+}
+/* Post Construction Cleaning Hero Blur*/
+
+/* Airbnb Cleaning Hero Blur*/
+
+.bg-blur-airbnb-cleaning {
+  /*height: calc(100vh - 88px);*/
+  height: calc(100vh);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.bg-blur-airbnb-cleaning::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  top: -15px;
+  bottom: 0px;
+  background-image: url("/.netlify/images?url=/images/core/hero-image-airbnb-cleaning.avif");
+  background-size: cover;
+  background-position: center;
+  /* transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;;*/
+  filter: blur(7px); /* Adjust the blur level here */
+}
+
+/* Remove blur effect when the 'scrolled' class is added */
+.bg-blur-airbnb-cleaning.scrolled::before {
+  filter: none;
+}
+/* Airbnb Cleaning Hero Blur*/
+
+/* Office Cleaning Hero Blur*/
+
+.bg-blur-office-cleaning {
+  /*height: calc(100vh - 88px);*/
+  height: calc(100vh);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.bg-blur-office-cleaning::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  top: -15px;
+  bottom: 0px;
+  background-image: url("/.netlify/images?url=/images/core/hero-image-office-cleaning.avif");
+  background-size: cover;
+  background-position: center;
+  /* transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;;*/
+
+  filter: blur(7px); /* Adjust the blur level here */
+}
+
+/* Remove blur effect when the 'scrolled' class is added */
+.bg-blur-office-cleaning.scrolled::before {
+  filter: none;
+}
+/* Office Cleaning Hero Blur*/
+
+/* Apartment Cleaning Hero Blur*/
+
+.bg-blur-apartment-cleaning {
+  /*height: calc(100vh - 88px);*/
+  height: calc(100vh);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.bg-blur-apartment-cleaning::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  top: -15px;
+  bottom: 0px;
+  background-image: url("/.netlify/images?url=/images/core/hero-image-apartment-cleaning.avif");
+  background-size: cover;
+  background-position: center;
+  /* transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;;*/
+
+  filter: blur(7px); /* Adjust the blur level here */
+}
+
+/* Remove blur effect when the 'scrolled' class is added */
+.bg-blur-apartment-cleaning.scrolled::before {
+  filter: none;
+}
+/* Apartment Cleaning Hero Blur*/
+
+/* Miracle Cleaning Hero Blur*/
+
+.bg-blur-miracle-cleaning {
+  /*height: calc(100vh - 88px);*/
+  height: calc(100vh);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.bg-blur-miracle-cleaning::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  top: -15px;
+  bottom: 0px;
+  background-image: url("/.netlify/images?url=/images/core/hero-image-miracle-cleaning.avif");
+  background-size: cover;
+  background-position: center;
+  /* transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;;*/
+
+  filter: blur(7px); /* Adjust the blur level here */
+}
+
+/* Remove blur effect when the 'scrolled' class is added */
+.bg-blur-miracle-cleaning.scrolled::before {
+  filter: none;
+}
+/* Miracle Cleaning Hero Blur*/
+
+/* Custom Cleaning Hero Blur*/
+
+.bg-blur-custom-cleaning {
+  /*height: calc(100vh - 88px);*/
+  height: calc(100vh);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.bg-blur-custom-cleaning::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  top: -15px;
+  bottom: 0px;
+  background-image: url("/.netlify/images?url=/images/core/hero-image-custom-cleaning.avif");
+  background-size: cover;
+  background-position: center;
+  /* transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;;*/
+
+  filter: blur(7px); /* Adjust the blur level here */
+}
+
+/* Remove blur effect when the 'scrolled' class is added */
+.bg-blur-custom-cleaning.scrolled::before {
+  filter: none;
+}
+/* Custom Cleaning Hero Blur*/
+
+/* Event Cleaning Hero Blur*/
+
+.bg-blur-event-cleaning {
+  /*height: calc(100vh - 88px);*/
+  height: calc(100vh);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.bg-blur-event-cleaning::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  top: -15px;
+  bottom: 0px;
+  background-image: url("/.netlify/images?url=/images/core/hero-image-event-cleaning.avif");
+  background-size: cover;
+  background-position: center;
+  /* transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;;*/
+
+  filter: blur(7px); /* Adjust the blur level here */
+}
+
+/* Remove blur effect when the 'scrolled' class is added */
+.bg-blur-event-cleaning.scrolled::before {
+  filter: none;
+}
+/* Event Cleaning Hero Blur*/
+
+/* Professional Organizing Hero Blur*/
+
+.bg-blur-professional-organizing {
+  /*height: calc(100vh - 88px);*/
+  height: calc(100vh);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.bg-blur-professional-organizing::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  top: -15px;
+  bottom: 0px;
+  background-image: url("/.netlify/images?url=/images/core/hero-image-professional-organizing.avif");
+  background-size: cover;
+  background-position: center;
+  /* transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;;*/
+
+  filter: blur(7px); /* Adjust the blur level here */
+}
+
+/* Remove blur effect when the 'scrolled' class is added */
+.bg-blur-professional-organizing.scrolled::before {
+  filter: none;
+}
+/* Professional Organizing Hero Blur*/
+
+/* All Services Hero Blur */
+
+.bg-blur-all-services {
+  /*height: calc(100vh - 88px);*/
+  height: calc(100vh);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.bg-blur-all-services::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  top: -15px;
+  bottom: 0px;
+  background-image: url("/.netlify/images?url=/images/core/hero-image-all-services.avif");
+  background-size: cover;
+  background-position: center;
+  filter: blur(7px);
+}
+
+.bg-blur-all-services.scrolled::before {
+  filter: none;
+}
+
+/* Service Areas Hero Blur */
+
+.bg-blur-service-areas {
+  /*height: calc(100vh - 88px);*/
+  height: calc(100vh);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.bg-blur-service-areas::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  top: -15px;
+  bottom: 0px;
+  background-image: url("/.netlify/images?url=/images/core/hero-image-service-areas.avif");
+  background-size: cover;
+  background-position: center;
+  filter: blur(7px);
+}
+
+.bg-blur-service-areas.scrolled::before {
+  filter: none;
+}
+
+/* Travis County Hero Blur */
+
+.bg-blur-travis-county {
+  /*height: calc(100vh - 88px);*/
+  height: calc(100vh);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.bg-blur-travis-county::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  top: -15px;
+  bottom: 0px;
+  background-image: url("/.netlify/images?url=/images/core/hero-image-travis-county.avif");
+  background-size: cover;
+  background-position: center;
+  filter: blur(7px);
+}
+
+.bg-blur-travis-county.scrolled::before {
+  filter: none;
+}
+
+/* Williamson County Hero Blur */
+
+.bg-blur-williamson-county {
+  /*height: calc(100vh - 88px);*/
+  height: calc(100vh);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.bg-blur-williamson-county::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  top: -15px;
+  bottom: 0px;
+  background-image: url("/.netlify/images?url=/images/core/hero-image-williamson-county.avif");
+  background-size: cover;
+  background-position: center;
+  filter: blur(7px);
+}
+
+.bg-blur-williamson-county.scrolled::before {
+  filter: none;
+}
+
+/* Hays County Hero Blur */
+
+.bg-blur-hays-county {
+  /*height: calc(100vh - 88px);*/
+  height: calc(100vh);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.bg-blur-hays-county::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  top: -15px;
+  bottom: 0px;
+  background-image: url("/.netlify/images?url=/images/core/hero-image-hays-county.avif");
+  background-size: cover;
+  background-position: center;
+  filter: blur(7px);
+}
+
+.bg-blur-hays-county.scrolled::before {
+  filter: none;
+}
+
+/* Success Hero Blur */
+
+.bg-blur-success {
+  /*height: calc(100vh - 88px);*/
+  height: calc(100vh);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.bg-blur-success::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  top: -15px;
+  bottom: 0px;
+  background-image: url("/.netlify/images?url=/images/core/hero-image-success.avif");
+  background-size: cover;
+  background-position: center;
+  filter: blur(7px);
+}
+
+.bg-blur-success.scrolled::before {
+  filter: none;
+}
+
+/* Press Hero Blur */
+
+.bg-blur-press {
+  /*height: calc(100vh - 88px);*/
+  height: calc(100vh);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.bg-blur-press::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  top: -15px;
+  bottom: 0px;
+  background-image: url("/.netlify/images?url=/images/core/hero-image-press.avif");
+  background-size: cover;
+  background-position: center;
+  filter: blur(7px);
+}
+
+.bg-blur-press.scrolled::before {
+  filter: none;
+}
+
+.bg-blur-mobile-car-detailing {
+  /*height: calc(100vh - 88px);*/
+  height: calc(100vh);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.bg-blur-mobile-car-detailing::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  top: -15px;
+  bottom: 0px;
+  background-image: url("/.netlify/images?url=/images/core/hero-image-mobile-car-detailing.avif");
+  background-size: cover;
+  background-position: center;
+  filter: blur(7px);
+}
+
+.bg-blur-mobile-car-detailing.scrolled::before {
+  filter: none;
+}
+
+.box {
+  width: 100%;
+  border: 0px solid white;
+  padding: 0px;
+  padding-bottom: 40px;
+  margin: 0px;
+  border-radius: 10px;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3em;
+  background-color: #eef7ff;
+}
+/* Style the table */
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+  width: 95%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Style table headers and table data */
+th,
+td {
+  text-align: center;
+  color: #2d2d2d;
+  padding: 16px;
+}
+
+th {
+  font-weight: 500;
+}
+
+tr td:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+tr td:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+/* Zebra-striped table rows */
+th:first-child,
+td:first-child {
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: #eef7ff;
+}
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+tr.header {
+  background-color: #a9d4fb;
+}
+
+.fa-check {
+  color: rgb(4, 192, 4);
+}
+.fa-remove {
+  color: rgb(255, 0, 0);
+}
+
+/* X & CHECK MARK SIZE */
+.fa-remove,
+.fa-check {
+  font-size: 20px;
+}
+
+.header th:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.header th:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+/* Initially, hide the menu with translateY */
+[data-mobile-menu] {
+  transform: translateY(-100%);
+  opacity: 0;
+  top: 100px;
+  max-height: calc(100vh - 6.2rem); /* Set a maximum height for the menu */
+  overflow-y: auto; /* Allow vertical scrolling */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* When the menu is active (visible), slide it down */
+[data-mobile-menu].active {
+  transform: translateY(0);
+  opacity: 1;
+  display: block; /* Ensure the menu is visible when active */
+}
+
+/* Add this class for the slide-up effect */
+[data-mobile-menu].slide-up {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+/* OUR BENEFITS SHADOW BOXES */
+.benefit-box {
+  box-shadow: 0 4px 10px #00000045;
+}
+
+@media (min-width: 600px) {
+  [data-mobile-menu] {
+    display: none !important;
+  }
+}
+
+@media (max-width: 400px) {
+  th {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  tr {
+    font-size: 12px;
+  }
+
+  @keyframes move {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-4000%);
+    }
+  }
+
+  .animate-move {
+    animation: move 150s linear infinite;
+  }
+
+  /* Home Hero Blur */
+
+  .bg-blur::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    right: -15px;
+    top: -15px;
+    bottom: 0px;
+    background-image: url("/.netlify/images?url=/images/core/hero-image-800x1200.avif");
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px);
+  }
+
+  /* House Cleaning Hero Blur*/
+
+  .bg-blur-house-cleaning::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    right: -15px;
+    top: -15px;
+    bottom: 0px;
+    background-image: url("/.netlify/images?url=/images/core/hero-image-house-cleaning.avif");
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px); /* Adjust the blur level here */
+  }
+
+  /* Deep Cleaning Hero Blur*/
+
+  .bg-blur-deep-cleaning::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    right: -15px;
+    top: -15px;
+    bottom: 0px;
+    background-image: url("/.netlify/images?url=/images/core/hero-image-deep-cleaning-800x1200.avif");
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px); /* Adjust the blur level here */
+  }
+
+  /* Move In Cleaning Hero Blur*/
+
+  .bg-blur-move-in-cleaning::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    right: -15px;
+    top: -15px;
+    bottom: 0px;
+    background-image: url("/.netlify/images?url=/images/core/hero-image-move-in-cleaning-800x1200.avif");
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px); /* Adjust the blur level here */
+  }
+
+  /* Move Out Cleaning Hero Blur*/
+
+  .bg-blur-move-out-cleaning::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    right: -15px;
+    top: -15px;
+    bottom: 0px;
+    background-image: url("/.netlify/images?url=/images/core/hero-image-move-out-cleaning-800x1200.avif");
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px); /* Adjust the blur level here */
+  }
+
+  /* Post Construction Cleaning Hero Blur*/
+
+  .bg-blur-post-construction-cleaning::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    right: -15px;
+    top: -15px;
+    bottom: 0px;
+    background-image: url("/.netlify/images?url=/images/core/hero-image-post-construction-cleaning-800x1200.avif");
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px); /* Adjust the blur level here */
+  }
+
+  /* Airbnb Cleaning Hero Blur*/
+
+  .bg-blur-airbnb-cleaning::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    right: -15px;
+    top: -15px;
+    bottom: 0px;
+    background-image: url("/.netlify/images?url=/images/core/hero-image-airbnb-cleaning-800x1200.avif");
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px); /* Adjust the blur level here */
+  }
+
+  /* Office Cleaning Hero Blur*/
+
+  .bg-blur-office-cleaning::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    right: -15px;
+    top: -15px;
+    bottom: 0px;
+    background-image: url("/.netlify/images?url=/images/core/hero-image-office-cleaning-800x1200.avif");
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px); /* Adjust the blur level here */
+  }
+
+  /* Apartment Cleaning Hero Blur*/
+
+  .bg-blur-apartment-cleaning::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    right: -15px;
+    top: -15px;
+    bottom: 0px;
+    background-image: url("/.netlify/images?url=/images/core/hero-image-apartment-cleaning-800x1200.avif");
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px); /* Adjust the blur level here */
+  }
+
+  /* Miracle Cleaning Hero Blur*/
+
+  .bg-blur-miracle-cleaning::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    right: -15px;
+    top: -15px;
+    bottom: 0px;
+    background-image: url("/.netlify/images?url=/images/core/hero-image-miracle-cleaning-800x1200.avif");
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px); /* Adjust the blur level here */
+  }
+
+  /* Custom Cleaning Hero Blur*/
+  
+  .bg-blur-custom-cleaning::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    right: -15px;
+    top: -15px;
+    bottom: 0px;
+    background-image: url("/.netlify/images?url=/images/core/hero-image-custom-cleaning-800x1200.avif");
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px); /* Adjust the blur level here */
+  }
+
+  /* Event Cleaning Hero Blur*/
+
+  .bg-blur-event-cleaning::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    right: -15px;
+    top: -15px;
+    bottom: 0px;
+    background-image: url("/.netlify/images?url=/images/core/hero-image-event-cleaning-800x1200.avif");
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px); /* Adjust the blur level here */
+  }
+
+  /* Professional Organizing Hero Blur*/
+
+  .bg-blur-professional-organizing::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    right: -15px;
+    top: -15px;
+    bottom: 0px;
+    background-image: url("/.netlify/images?url=/images/core/hero-image-professional-organizing-800x1200.avif");
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px); /* Adjust the blur level here */
+  }
+
+  /* All Services Hero Blur */
+
+  .bg-blur-all-services::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    right: -15px;
+    top: -15px;
+    bottom: 0px;
+    background-image: url("/.netlify/images?url=/images/core/hero-image-all-services-800x1200.avif");
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px);
+  }
+
+  .bg-blur-service-areas::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    right: -15px;
+    top: -15px;
+    bottom: 0px;
+    background-image: url("/.netlify/images?url=/images/core/hero-image-service-areas-800x1200.avif");
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px);
+  }
+
+  /* Travis County Hero Blur */
+
+  .bg-blur-travis-county::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    right: -15px;
+    top: -15px;
+    bottom: 0px;
+    background-image: url("/.netlify/images?url=/images/core/hero-image-travis-county-800x1200.avif");
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px);
+  }
+
+  /* Williamson County Hero Blur */
+
+  .bg-blur-williamson-county::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    right: -15px;
+    top: -15px;
+    bottom: 0px;
+    background-image: url("/.netlify/images?url=/images/core/hero-image-williamson-county-800x1200.avif");
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px);
+  }
+
+  /* Hays County Hero Blur */
+
+  .bg-blur-hays-county::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    right: -15px;
+    top: -15px;
+    bottom: 0px;
+    background-image: url("/.netlify/images?url=/images/core/hero-image-hays-county-800x1200.avif");
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px);
+  }
+
+  /* Success Hero Blur */
+
+  .bg-blur-success::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    right: -15px;
+    top: -15px;
+    bottom: 0px;
+    background-image: url("/.netlify/images?url=/images/core/hero-image-success-800x1200.avif");
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px);
+  }
+
+  /* Press Hero Blur */
+
+  .bg-blur-press::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    right: -15px;
+    top: -15px;
+    bottom: 0px;
+    background-image: url("/.netlify/images?url=/images/core/hero-image-press-800x1200.avif");
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px);
+  }
+
+}
+
+.location-card button {
+  display: none;
+}
+
+.location-card:hover button {
+  display: block;
+}
+
